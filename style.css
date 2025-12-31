@@ -1,0 +1,160 @@
+body {
+  font-family: "Oswald", sans-serif;
+  background: #fafafa;
+  color: #222222;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.oswald-08{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.container {
+  max-width: 720px;
+  margin: 90px auto;
+  padding: 0 22px;
+}
+section {
+    border-bottom: 1px solid #ddd;
+    scroll-margin-top: 80px;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.3rem;
+  color: #5D3FD3;
+}
+
+.tagline {
+  color: #222222;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: #5D3FD3;
+}
+
+.project {
+  margin-top: 1.5rem;
+}
+
+.project h3 {
+  margin-bottom: 0.2rem;
+  color: #3a289d;
+}
+.project a{
+  text-decoration: none;
+  margin-bottom: 0.2rem;
+  color: #3a289d;
+  border-bottom: 1px solid #ddd;
+}
+.project a:hover {
+  border-bottom-color: #111;
+}
+.project :hover{
+    color: #555;
+}
+.links a {
+  text-decoration: none;
+  color: #5D3FD3;
+  border-bottom: 1px solid #ddd;
+}
+
+.links a:hover {
+  border-bottom-color: #111;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #fafafa;
+  border-bottom: 1px solid #ddd;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 600;
+  color:#5D3FD3;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #5D3FD3;
+  font-size: 1rem;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-links a:hover {
+  border-bottom: 1px solid #111;
+}
+
+.button {
+  background-color:#5D3FD3; 
+  font-family: "Oswald", sans-serif;
+  color: white;             
+  padding: 14px 25px;       
+  text-align: center;       
+  text-decoration: none;   
+  display: inline-block;   
+  border-radius: 18px;       
+  cursor: pointer;          
+  border: none;   
+  font-size: 1rem;          
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.about-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start; 
+  gap: 30px; 
+  margin-top: 15px;
+}
+
+.text-content {
+  flex: 1; 
+}
+
+.profile-image {
+  width: 200px; 
+  height: auto;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  flex-shrink: 0; 
+  border-color: #3a289d;
+}
+
+
+.pixel-border {
+  width: 200px;
+  height: auto;
+  border: 4px solid #3a289d;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.pixel-border:hover {
+  transform: scale(1.03);
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
